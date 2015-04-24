@@ -1,6 +1,5 @@
 # TTCustomCallout
 
-[![CI Status](http://img.shields.io/travis/TTPL/TTCustomCallout.svg?style=flat)](https://travis-ci.org/TTPL/TTCustomCallout)
 [![Version](https://img.shields.io/cocoapods/v/TTCustomCallout.svg?style=flat)](http://cocoapods.org/pods/TTCustomCallout)
 [![License](https://img.shields.io/cocoapods/l/TTCustomCallout.svg?style=flat)](http://cocoapods.org/pods/TTCustomCallout)
 [![Platform](https://img.shields.io/cocoapods/p/TTCustomCallout.svg?style=flat)](http://cocoapods.org/pods/TTCustomCallout)
