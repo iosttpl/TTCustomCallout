@@ -1,0 +1,14 @@
+PODS:
+  - TTCustomCallout (0.1.0)
+
+DEPENDENCIES:
+  - TTCustomCallout (from `../`)
+
+EXTERNAL SOURCES:
+  TTCustomCallout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTCustomCallout: 4edb491d4c87cd0eb25178650ed4367402b4ea70
+
+COCOAPODS: 0.35.0

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface TTViewController : UIViewController
+@interface TTViewController : UIViewController<MKMapViewDelegate>
+
+
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
+
 
 @end

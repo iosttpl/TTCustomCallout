@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086E0623409E440551B9FE52 /* PinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFD1950D932EF3200AB5D /* PinAnnotation.m */; };
+		1EE4874BAC3E1A5D87E0E779 /* Pods-TTCustomCallout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBBF763A434617ACAA51EB /* Pods-TTCustomCallout-dummy.m */; };
+		1F1EC4C3C6C6D5BBF2BF0A9A /* TTCustomAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF86CADC2A61DBF8CD6A30E /* TTCustomAnnotationView.h */; };
+		26834E646D7FD41B24474749 /* Pods-TTCustomCallout-TTCustomCallout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3238FACEC2431CE46A7F40 /* Pods-TTCustomCallout-TTCustomCallout-dummy.m */; };
+		2D41681A3CE617EEA84C80DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAC9044AFA9AFF80C0C4C14 /* Foundation.framework */; };
+		31994A050F70567EE1755B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAC9044AFA9AFF80C0C4C14 /* Foundation.framework */; };
+		3920D2497658B3E6532D8B1D /* PinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFD1950D932EF3200AB5D /* PinAnnotation.m */; };
+		4642F0C06D9021AAEA41FB35 /* CallOutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BBDC5BC9C02CBA617472D7 /* CallOutAnnotation.m */; };
+		55F06425DFA6518C207E3062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAC9044AFA9AFF80C0C4C14 /* Foundation.framework */; };
+		55F45CC8AC0D7422977B033C /* CallOutAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 378614AF570FEE3C433C98F9 /* CallOutAnnotation.h */; };
+		67313A3840BC842247D64B18 /* TTCustomAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF86CADC2A61DBF8CD6A30E /* TTCustomAnnotationView.h */; };
+		74EA0E81BFEA1D04E190F911 /* PinAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE1DB3247F758E22819244A /* PinAnnotation.h */; };
+		9362A08B9F643731503D3A02 /* Pods-Tests-TTCustomCallout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5327A18F29A40F1F81018 /* Pods-Tests-TTCustomCallout-dummy.m */; };
+		A10C6759E3E279713FC16D40 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B066DBA71E416A3A391ACC97 /* Pods-Tests-dummy.m */; };
+		A5C748EA0202C177CBDA1CA7 /* PinAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE1DB3247F758E22819244A /* PinAnnotation.h */; };
+		B0D7F3C5D2C1C4C83365D6D8 /* CallOutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BBDC5BC9C02CBA617472D7 /* CallOutAnnotation.m */; };
+		BE0C0FCE690930EA3A443CFE /* CallOutAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 378614AF570FEE3C433C98F9 /* CallOutAnnotation.h */; };
+		CF5CE0F460A1806AB8717C61 /* TTCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31897B7EF1141F2C42FE90D /* TTCustomAnnotationView.m */; };
+		D11C8016A313960A3A30CB12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAC9044AFA9AFF80C0C4C14 /* Foundation.framework */; };
+		F4D8ABA8751608ABC58A1D47 /* TTCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31897B7EF1141F2C42FE90D /* TTCustomAnnotationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45D60D38A7E5F34955E336B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617FF2FCDCA3EF304F3A040E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B070A1AA81358E260305FC;
+			remoteInfo = "Pods-Tests-TTCustomCallout";
+		};
+		4BD0C0F7CA90F0AA20BBAB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617FF2FCDCA3EF304F3A040E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABFDD87EEC6FA27E6D8A769;
+			remoteInfo = "Pods-TTCustomCallout-TTCustomCallout";
+		};
+		6A30736C48E592B6275FB628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617FF2FCDCA3EF304F3A040E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B2991FB6C452B458F07F97B;
+			remoteInfo = TTCustomCallout;
+		};
+		6E3B4B731CCE5BDA01596A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617FF2FCDCA3EF304F3A040E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B2991FB6C452B458F07F97B;
+			remoteInfo = TTCustomCallout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BBDC5BC9C02CBA617472D7 /* CallOutAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CallOutAnnotation.m; path = Pod/Classes/CallOutAnnotation.m; sourceTree = "<group>"; };
+		01B55ADAC4526A67E91C9656 /* libPods-TTCustomCallout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTCustomCallout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0383AF4BFC9C66A9168652B3 /* Pods-Tests-TTCustomCallout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-TTCustomCallout-prefix.pch"; path = "../Pods-Tests-TTCustomCallout/Pods-Tests-TTCustomCallout-prefix.pch"; sourceTree = "<group>"; };
+		0861D7A9B28027B46BC417D1 /* Pods-TTCustomCallout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCustomCallout.debug.xcconfig"; sourceTree = "<group>"; };
+		2625460DA1B3E2AB6CB21ACA /* Pods-TTCustomCallout-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTCustomCallout-resources.sh"; sourceTree = "<group>"; };
+		26FEB21235D24D41DB5BB7A3 /* Pods-TTCustomCallout-TTCustomCallout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTCustomCallout-TTCustomCallout-prefix.pch"; sourceTree = "<group>"; };
+		2AE6D9937D2050CE3A4AA2F1 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BE5327A18F29A40F1F81018 /* Pods-Tests-TTCustomCallout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-TTCustomCallout-dummy.m"; path = "../Pods-Tests-TTCustomCallout/Pods-Tests-TTCustomCallout-dummy.m"; sourceTree = "<group>"; };
+		30C3F6BB7C18837FE68F73D8 /* Pods-TTCustomCallout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCustomCallout.release.xcconfig"; sourceTree = "<group>"; };
+		33E31278EA2E463799AB9319 /* Pods-TTCustomCallout-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTCustomCallout-acknowledgements.markdown"; sourceTree = "<group>"; };
+		378614AF570FEE3C433C98F9 /* CallOutAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CallOutAnnotation.h; path = Pod/Classes/CallOutAnnotation.h; sourceTree = "<group>"; };
+		50DBBF763A434617ACAA51EB /* Pods-TTCustomCallout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTCustomCallout-dummy.m"; sourceTree = "<group>"; };
+		527D201FF960B5B04BBF6C18 /* Pods-TTCustomCallout-TTCustomCallout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCustomCallout-TTCustomCallout-Private.xcconfig"; sourceTree = "<group>"; };
+		55F0B18B9301674B51ACCE08 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		5AB028BE9B513B06BD6B82D2 /* Pods-TTCustomCallout-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTCustomCallout-environment.h"; sourceTree = "<group>"; };
+		5AF86CADC2A61DBF8CD6A30E /* TTCustomAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCustomAnnotationView.h; path = Pod/Classes/TTCustomAnnotationView.h; sourceTree = "<group>"; };
+		5E7E46175AC2CF36F865ED6B /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE1DB3247F758E22819244A /* PinAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PinAnnotation.h; path = Pod/Classes/PinAnnotation.h; sourceTree = "<group>"; };
+		6BA628781C90F517C2D1D941 /* libPods-TTCustomCallout-TTCustomCallout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTCustomCallout-TTCustomCallout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3373ECC12181756981ABE8 /* Pods-TTCustomCallout-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTCustomCallout-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FAC9044AFA9AFF80C0C4C14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95C5409C4503171DCCA1C9A4 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		A31897B7EF1141F2C42FE90D /* TTCustomAnnotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCustomAnnotationView.m; path = Pod/Classes/TTCustomAnnotationView.m; sourceTree = "<group>"; };
+		AD3AFC1F2272FF997888CE32 /* Pods-Tests-TTCustomCallout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-TTCustomCallout-Private.xcconfig"; path = "../Pods-Tests-TTCustomCallout/Pods-Tests-TTCustomCallout-Private.xcconfig"; sourceTree = "<group>"; };
+		AD4625DEEE99D5CE0F924478 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF3238FACEC2431CE46A7F40 /* Pods-TTCustomCallout-TTCustomCallout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTCustomCallout-TTCustomCallout-dummy.m"; sourceTree = "<group>"; };
+		B023966CE106DE5FA8FE38BB /* TTCustomCallout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCustomCallout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B066DBA71E416A3A391ACC97 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		B70C15858A95C04C48C990D4 /* Pods-TTCustomCallout-TTCustomCallout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTCustomCallout-TTCustomCallout.xcconfig"; sourceTree = "<group>"; };
+		CE1AFD1950D932EF3200AB5D /* PinAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PinAnnotation.m; path = Pod/Classes/PinAnnotation.m; sourceTree = "<group>"; };
+		D00B8B9D2FBEB17D1215E125 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3422571698263B7C347E768 /* Pods-Tests-TTCustomCallout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-TTCustomCallout.xcconfig"; path = "../Pods-Tests-TTCustomCallout/Pods-Tests-TTCustomCallout.xcconfig"; sourceTree = "<group>"; };
+		F8A4A14D7BD1FDD3661684B2 /* libPods-Tests-TTCustomCallout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-TTCustomCallout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB559A328EF2537ECB642327 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC0FC8007A93DA3088F2A71 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA266E5007157C9D47A3FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F06425DFA6518C207E3062 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B81BDF88B079207473A9008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11C8016A313960A3A30CB12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F8237CF4A6E38C18349DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31994A050F70567EE1755B94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E3F1010A4CE0F52EE12E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1E82E17C3D4D828686149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41681A3CE617EEA84C80DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D3BB602D9C9C0066018B10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70C15858A95C04C48C990D4 /* Pods-TTCustomCallout-TTCustomCallout.xcconfig */,
+				527D201FF960B5B04BBF6C18 /* Pods-TTCustomCallout-TTCustomCallout-Private.xcconfig */,
+				AF3238FACEC2431CE46A7F40 /* Pods-TTCustomCallout-TTCustomCallout-dummy.m */,
+				26FEB21235D24D41DB5BB7A3 /* Pods-TTCustomCallout-TTCustomCallout-prefix.pch */,
+				F3422571698263B7C347E768 /* Pods-Tests-TTCustomCallout.xcconfig */,
+				AD3AFC1F2272FF997888CE32 /* Pods-Tests-TTCustomCallout-Private.xcconfig */,
+				2BE5327A18F29A40F1F81018 /* Pods-Tests-TTCustomCallout-dummy.m */,
+				0383AF4BFC9C66A9168652B3 /* Pods-Tests-TTCustomCallout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-TTCustomCallout-TTCustomCallout";
+			sourceTree = "<group>";
+		};
+		162B7AB557279958BB2C61AF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC9044AFA9AFF80C0C4C14 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49B17D445D173423D44A0EA2 = {
+			isa = PBXGroup;
+			children = (
+				AD4625DEEE99D5CE0F924478 /* Podfile */,
+				C77ADB39A0278B7766697736 /* Development Pods */,
+				60FA53875C36989BB1FB27DD /* Frameworks */,
+				F2E67D03A0BC4AD608998A5C /* Products */,
+				AC6ABAAD75D448458620FCD5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4C8196A1862484BFD2DC701E /* Pods-TTCustomCallout */ = {
+			isa = PBXGroup;
+			children = (
+				33E31278EA2E463799AB9319 /* Pods-TTCustomCallout-acknowledgements.markdown */,
+				6D3373ECC12181756981ABE8 /* Pods-TTCustomCallout-acknowledgements.plist */,
+				50DBBF763A434617ACAA51EB /* Pods-TTCustomCallout-dummy.m */,
+				5AB028BE9B513B06BD6B82D2 /* Pods-TTCustomCallout-environment.h */,
+				2625460DA1B3E2AB6CB21ACA /* Pods-TTCustomCallout-resources.sh */,
+				0861D7A9B28027B46BC417D1 /* Pods-TTCustomCallout.debug.xcconfig */,
+				30C3F6BB7C18837FE68F73D8 /* Pods-TTCustomCallout.release.xcconfig */,
+			);
+			name = "Pods-TTCustomCallout";
+			path = "Target Support Files/Pods-TTCustomCallout";
+			sourceTree = "<group>";
+		};
+		60FA53875C36989BB1FB27DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162B7AB557279958BB2C61AF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D89BC32110773CA0BC668ED /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0FC8007A93DA3088F2A71 /* Pods-Tests-acknowledgements.markdown */,
+				2AE6D9937D2050CE3A4AA2F1 /* Pods-Tests-acknowledgements.plist */,
+				B066DBA71E416A3A391ACC97 /* Pods-Tests-dummy.m */,
+				55F0B18B9301674B51ACCE08 /* Pods-Tests-environment.h */,
+				95C5409C4503171DCCA1C9A4 /* Pods-Tests-resources.sh */,
+				5E7E46175AC2CF36F865ED6B /* Pods-Tests.debug.xcconfig */,
+				D00B8B9D2FBEB17D1215E125 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		7269DFAE520E3A914FDDFB44 /* TTCustomCallout */ = {
+			isa = PBXGroup;
+			children = (
+				378614AF570FEE3C433C98F9 /* CallOutAnnotation.h */,
+				00BBDC5BC9C02CBA617472D7 /* CallOutAnnotation.m */,
+				5EE1DB3247F758E22819244A /* PinAnnotation.h */,
+				CE1AFD1950D932EF3200AB5D /* PinAnnotation.m */,
+				5AF86CADC2A61DBF8CD6A30E /* TTCustomAnnotationView.h */,
+				A31897B7EF1141F2C42FE90D /* TTCustomAnnotationView.m */,
+				05D3BB602D9C9C0066018B10 /* Support Files */,
+			);
+			name = TTCustomCallout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AC6ABAAD75D448458620FCD5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C8196A1862484BFD2DC701E /* Pods-TTCustomCallout */,
+				6D89BC32110773CA0BC668ED /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C77ADB39A0278B7766697736 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7269DFAE520E3A914FDDFB44 /* TTCustomCallout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F2E67D03A0BC4AD608998A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B023966CE106DE5FA8FE38BB /* TTCustomCallout.bundle */,
+				01B55ADAC4526A67E91C9656 /* libPods-TTCustomCallout.a */,
+				6BA628781C90F517C2D1D941 /* libPods-TTCustomCallout-TTCustomCallout.a */,
+				FB559A328EF2537ECB642327 /* libPods-Tests.a */,
+				F8A4A14D7BD1FDD3661684B2 /* libPods-Tests-TTCustomCallout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CE22FB0FB7921C14D4C406D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0C0FCE690930EA3A443CFE /* CallOutAnnotation.h in Headers */,
+				74EA0E81BFEA1D04E190F911 /* PinAnnotation.h in Headers */,
+				1F1EC4C3C6C6D5BBF2BF0A9A /* TTCustomAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C560FA4BB47A649F29E50F3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F45CC8AC0D7422977B033C /* CallOutAnnotation.h in Headers */,
+				A5C748EA0202C177CBDA1CA7 /* PinAnnotation.h in Headers */,
+				67313A3840BC842247D64B18 /* TTCustomAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16B070A1AA81358E260305FC /* Pods-Tests-TTCustomCallout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E08052A8B8218B85405887C /* Build configuration list for PBXNativeTarget "Pods-Tests-TTCustomCallout" */;
+			buildPhases = (
+				9BAF6E17738465F079B65216 /* Sources */,
+				39F8237CF4A6E38C18349DC3 /* Frameworks */,
+				2CE22FB0FB7921C14D4C406D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42187A39140E60BA688A7E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-TTCustomCallout";
+			productName = "Pods-Tests-TTCustomCallout";
+			productReference = F8A4A14D7BD1FDD3661684B2 /* libPods-Tests-TTCustomCallout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3EB6C71FB946C4484A03854B /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC3A6404E33BF6E34FE842A /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				8D388B0203A6306AE302F24F /* Sources */,
+				0BA266E5007157C9D47A3FDB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				704A39CFEA6DFFAFC09F7365 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = FB559A328EF2537ECB642327 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4B2991FB6C452B458F07F97B /* TTCustomCallout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CA5B2E84FFB0141236E66D /* Build configuration list for PBXNativeTarget "TTCustomCallout" */;
+			buildPhases = (
+				833A66F5E17580801276BED2 /* Sources */,
+				F3E3F1010A4CE0F52EE12E48 /* Frameworks */,
+				9C4AB739147FD445CA465A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTCustomCallout;
+			productName = TTCustomCallout;
+			productReference = B023966CE106DE5FA8FE38BB /* TTCustomCallout.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4D244A478FA378381C85B844 /* Pods-TTCustomCallout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8851466C8E8D6773FA983D9B /* Build configuration list for PBXNativeTarget "Pods-TTCustomCallout" */;
+			buildPhases = (
+				EC4D7402A4649781DAAC78BC /* Sources */,
+				FBF1E82E17C3D4D828686149 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738967E9E1209A1DF0706A05 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTCustomCallout";
+			productName = "Pods-TTCustomCallout";
+			productReference = 01B55ADAC4526A67E91C9656 /* libPods-TTCustomCallout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6ABFDD87EEC6FA27E6D8A769 /* Pods-TTCustomCallout-TTCustomCallout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A40C6723BCB6737378E6E4 /* Build configuration list for PBXNativeTarget "Pods-TTCustomCallout-TTCustomCallout" */;
+			buildPhases = (
+				0A2137AD7EBCA5DCE078FD46 /* Sources */,
+				2B81BDF88B079207473A9008 /* Frameworks */,
+				C560FA4BB47A649F29E50F3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4757172E82B8ADB92D3F9D9C /* PBXTargetDependency */,
+			);
+			name = "Pods-TTCustomCallout-TTCustomCallout";
+			productName = "Pods-TTCustomCallout-TTCustomCallout";
+			productReference = 6BA628781C90F517C2D1D941 /* libPods-TTCustomCallout-TTCustomCallout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617FF2FCDCA3EF304F3A040E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = CEE866C86584F91968EA12E7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49B17D445D173423D44A0EA2;
+			productRefGroup = F2E67D03A0BC4AD608998A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D244A478FA378381C85B844 /* Pods-TTCustomCallout */,
+				6ABFDD87EEC6FA27E6D8A769 /* Pods-TTCustomCallout-TTCustomCallout */,
+				3EB6C71FB946C4484A03854B /* Pods-Tests */,
+				16B070A1AA81358E260305FC /* Pods-Tests-TTCustomCallout */,
+				4B2991FB6C452B458F07F97B /* TTCustomCallout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4AB739147FD445CA465A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2137AD7EBCA5DCE078FD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4642F0C06D9021AAEA41FB35 /* CallOutAnnotation.m in Sources */,
+				3920D2497658B3E6532D8B1D /* PinAnnotation.m in Sources */,
+				26834E646D7FD41B24474749 /* Pods-TTCustomCallout-TTCustomCallout-dummy.m in Sources */,
+				CF5CE0F460A1806AB8717C61 /* TTCustomAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833A66F5E17580801276BED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D388B0203A6306AE302F24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10C6759E3E279713FC16D40 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAF6E17738465F079B65216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7F3C5D2C1C4C83365D6D8 /* CallOutAnnotation.m in Sources */,
+				086E0623409E440551B9FE52 /* PinAnnotation.m in Sources */,
+				9362A08B9F643731503D3A02 /* Pods-Tests-TTCustomCallout-dummy.m in Sources */,
+				F4D8ABA8751608ABC58A1D47 /* TTCustomAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4D7402A4649781DAAC78BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE4874BAC3E1A5D87E0E779 /* Pods-TTCustomCallout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4757172E82B8ADB92D3F9D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTCustomCallout;
+			target = 4B2991FB6C452B458F07F97B /* TTCustomCallout */;
+			targetProxy = 6E3B4B731CCE5BDA01596A4B /* PBXContainerItemProxy */;
+		};
+		704A39CFEA6DFFAFC09F7365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-TTCustomCallout";
+			target = 16B070A1AA81358E260305FC /* Pods-Tests-TTCustomCallout */;
+			targetProxy = 45D60D38A7E5F34955E336B9 /* PBXContainerItemProxy */;
+		};
+		738967E9E1209A1DF0706A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTCustomCallout-TTCustomCallout";
+			target = 6ABFDD87EEC6FA27E6D8A769 /* Pods-TTCustomCallout-TTCustomCallout */;
+			targetProxy = 4BD0C0F7CA90F0AA20BBAB54 /* PBXContainerItemProxy */;
+		};
+		A42187A39140E60BA688A7E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTCustomCallout;
+			target = 4B2991FB6C452B458F07F97B /* TTCustomCallout */;
+			targetProxy = 6A30736C48E592B6275FB628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		031D66216492FCAB66579832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3AFC1F2272FF997888CE32 /* Pods-Tests-TTCustomCallout-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TTCustomCallout/Pods-Tests-TTCustomCallout-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		160FD144E4F03BA186647E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0861D7A9B28027B46BC417D1 /* Pods-TTCustomCallout.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4660A5C8E6FCFA383D284CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C3F6BB7C18837FE68F73D8 /* Pods-TTCustomCallout.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B8C1C46752F46C4918C60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		56EEB2918B1DA49EDB37B045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6F12C87F5EB3508AB519246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527D201FF960B5B04BBF6C18 /* Pods-TTCustomCallout-TTCustomCallout-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TTCustomCallout-TTCustomCallout/Pods-TTCustomCallout-TTCustomCallout-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8668C59E2C462F31B52FB5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		976BFA95DBFE9E13CE00A1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3AFC1F2272FF997888CE32 /* Pods-Tests-TTCustomCallout-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TTCustomCallout/Pods-Tests-TTCustomCallout-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B524CD7D6D86EEDCCCBB98C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7E46175AC2CF36F865ED6B /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DAA98B6611C2B2BFEBAAF736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527D201FF960B5B04BBF6C18 /* Pods-TTCustomCallout-TTCustomCallout-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TTCustomCallout-TTCustomCallout/Pods-TTCustomCallout-TTCustomCallout-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE673325B5F468E2973E33AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00B8B9D2FBEB17D1215E125 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F037FAF97204EE0BF77B8503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CA5B2E84FFB0141236E66D /* Build configuration list for PBXNativeTarget "TTCustomCallout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EEB2918B1DA49EDB37B045 /* Debug */,
+				52B8C1C46752F46C4918C60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E08052A8B8218B85405887C /* Build configuration list for PBXNativeTarget "Pods-Tests-TTCustomCallout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976BFA95DBFE9E13CE00A1D8 /* Debug */,
+				031D66216492FCAB66579832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC3A6404E33BF6E34FE842A /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B524CD7D6D86EEDCCCBB98C6 /* Debug */,
+				DE673325B5F468E2973E33AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A40C6723BCB6737378E6E4 /* Build configuration list for PBXNativeTarget "Pods-TTCustomCallout-TTCustomCallout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA98B6611C2B2BFEBAAF736 /* Debug */,
+				6F12C87F5EB3508AB519246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8851466C8E8D6773FA983D9B /* Build configuration list for PBXNativeTarget "Pods-TTCustomCallout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160FD144E4F03BA186647E0E /* Debug */,
+				4660A5C8E6FCFA383D284CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE866C86584F91968EA12E7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F037FAF97204EE0BF77B8503 /* Debug */,
+				8668C59E2C462F31B52FB5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617FF2FCDCA3EF304F3A040E /* Project object */;
+}
